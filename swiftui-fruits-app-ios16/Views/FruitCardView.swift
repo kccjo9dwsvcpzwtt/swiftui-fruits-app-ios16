@@ -11,6 +11,8 @@ struct FruitCardView: View {
   
   //MARK: - PROPERTIES
   
+  var fruit: Fruit
+  
   @State private var isAnimating: Bool = false
   
   //MARK: - CONTENT
@@ -21,7 +23,7 @@ struct FruitCardView: View {
         
         //MARK: - IMAGE
         
-        Image("blueberry")
+        Image(fruit.image)
           .resizable()
           .scaledToFit()
           .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
@@ -29,7 +31,7 @@ struct FruitCardView: View {
         
         //MARK: - TITLE
         
-        Text("Blueberry")
+        Text(fruit.title)
           .foregroundStyle(.white)
           .font(.largeTitle)
           .fontWeight(.heavy)
@@ -37,7 +39,7 @@ struct FruitCardView: View {
         
         //MARK: - HEADLINE
         
-        Text("Bluberryes are sweet, nutritious and widly popular fruit all over the world.")
+        Text(fruit.headline)
           .foregroundStyle(.white)
           .multilineTextAlignment(.center)
           .padding(.horizontal, 16)
@@ -57,7 +59,7 @@ struct FruitCardView: View {
       }
     )
     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
-    .background(LinearGradient(gradient: Gradient(colors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")]), startPoint: .top, endPoint: .bottom))
+    .background(LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .top, endPoint: .bottom))
     .cornerRadius(20)
     .padding(.horizontal, 20)
   }
@@ -66,6 +68,6 @@ struct FruitCardView: View {
 //MARK: - PREVIEW
 
 #Preview {
-  FruitCardView()
+  FruitCardView(fruit: fruitsData[1])
     .previewLayout(.fixed(width: 320, height: 640))
 }
