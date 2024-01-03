@@ -16,6 +16,7 @@
 		CA8E00182B3608680002273F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E00172B3608680002273F /* OnboardingView.swift */; };
 		CA8E001B2B3F23580002273F /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E001A2B3F23580002273F /* FruitModel.swift */; };
 		CA8E001E2B4308F70002273F /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E001D2B4308F70002273F /* FruitData.swift */; };
+		CA8E00222B45A8920002273F /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E00212B45A8920002273F /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CA8E00172B3608680002273F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CA8E001A2B3F23580002273F /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		CA8E001D2B4308F70002273F /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		CA8E00212B45A8920002273F /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				CA8E00132B34FE450002273F /* FruitCardView.swift */,
 				CA8E00152B35F4530002273F /* StartButtonView.swift */,
+				CA8E00212B45A8920002273F /* FruitRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				CA8E001E2B4308F70002273F /* FruitData.swift in Sources */,
 				CA8E00142B34FE450002273F /* FruitCardView.swift in Sources */,
+				CA8E00222B45A8920002273F /* FruitRowView.swift in Sources */,
 				CA8E00162B35F4530002273F /* StartButtonView.swift in Sources */,
 				CA8E00062B3477CC0002273F /* ContentView.swift in Sources */,
 				CA8E00182B3608680002273F /* OnboardingView.swift in Sources */,
