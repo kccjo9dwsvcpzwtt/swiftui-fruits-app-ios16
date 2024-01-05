@@ -40,6 +40,8 @@ struct FruitRowView: View {
   }
 }
 
+//MARK: - PREVIEW
+
 #Preview {
   FruitRowView(fruit: fruitsData[0])
     .previewLayout(.sizeThatFits)
