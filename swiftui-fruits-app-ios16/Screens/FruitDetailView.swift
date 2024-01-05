@@ -41,7 +41,7 @@ struct FruitDetailView: View {
             
             //MARK: - NUTRIENTS
             
-            Text(fruit.nutrition[1])
+            FruitNutrientsView(fruit: fruit)
             
             //MARK: - SUBHEADING
             
