@@ -23,6 +23,7 @@
 		CAD601162B484927003DB317 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD601152B484927003DB317 /* FruitNutrientsView.swift */; };
 		CAD601182B486D15003DB317 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD601172B486D15003DB317 /* SettingsView.swift */; };
 		CAD6011A2B489499003DB317 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD601192B489499003DB317 /* SettingsLabelView.swift */; };
+		CAD6011C2B4AF90C003DB317 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6011B2B4AF90C003DB317 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		CAD601152B484927003DB317 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		CAD601172B486D15003DB317 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CAD601192B489499003DB317 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		CAD6011B2B4AF90C003DB317 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				CABC5D0A2B4824C50094B9CB /* SourceLinkView.swift */,
 				CAD601152B484927003DB317 /* FruitNutrientsView.swift */,
 				CAD601192B489499003DB317 /* SettingsLabelView.swift */,
+				CAD6011B2B4AF90C003DB317 /* SettingsRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				CA8E001E2B4308F70002273F /* FruitData.swift in Sources */,
 				CABC5D0B2B4824C50094B9CB /* SourceLinkView.swift in Sources */,
+				CAD6011C2B4AF90C003DB317 /* SettingsRowView.swift in Sources */,
 				CA8E00142B34FE450002273F /* FruitCardView.swift in Sources */,
 				CA8E00222B45A8920002273F /* FruitRowView.swift in Sources */,
 				CAD601162B484927003DB317 /* FruitNutrientsView.swift in Sources */,
@@ -364,7 +368,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "svponomarenko.swiftui-fruits-app-ios16";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -393,7 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "svponomarenko.swiftui-fruits-app-ios16";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

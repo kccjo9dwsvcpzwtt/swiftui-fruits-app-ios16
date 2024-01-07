@@ -53,6 +53,28 @@ struct SettingsView: View {
           
           //MARK: - SECTION 3
           
+          GroupBox {
+            SettingsRowView(name: "Developer", content: "Stanislav Ponomarenko")
+            SettingsRowView(name: "Designer", content: "Robert Petras")
+            SettingsRowView(name: "Compatibility", content: "iOS 16")
+            SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
+            SettingsRowView(name: "Twitter")
+            SettingsRowView(name: "SwiftUI", content: "5.0")
+            SettingsRowView(name: "Version", content: "1.1.0")
+            
+            /*
+            HStack {
+              Text("Developer")
+                .foregroundStyle(.gray)
+              Spacer()
+              Text("Stanislav Ponomarenko")
+            } //: HSTACK
+            */
+            
+          } label: {
+            SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+          } //: GROUP BOX
+
           
         } //: VSTACK
         .navigationTitle("Settings")
