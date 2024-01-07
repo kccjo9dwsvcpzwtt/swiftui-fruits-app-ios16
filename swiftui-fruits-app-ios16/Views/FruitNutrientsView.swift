@@ -42,6 +42,8 @@ struct FruitNutrientsView: View {
   }
 }
 
+//MARK: - PREVIEW
+
 #Preview {
   FruitNutrientsView(fruit: fruitsData[0])
     .preferredColorScheme(.dark)

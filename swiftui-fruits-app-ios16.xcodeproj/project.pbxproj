@@ -21,6 +21,8 @@
 		CABC5D092B4728070094B9CB /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC5D082B4728070094B9CB /* FruitHeaderView.swift */; };
 		CABC5D0B2B4824C50094B9CB /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC5D0A2B4824C50094B9CB /* SourceLinkView.swift */; };
 		CAD601162B484927003DB317 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD601152B484927003DB317 /* FruitNutrientsView.swift */; };
+		CAD601182B486D15003DB317 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD601172B486D15003DB317 /* SettingsView.swift */; };
+		CAD6011A2B489499003DB317 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD601192B489499003DB317 /* SettingsLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		CABC5D082B4728070094B9CB /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		CABC5D0A2B4824C50094B9CB /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		CAD601152B484927003DB317 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		CAD601172B486D15003DB317 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CAD601192B489499003DB317 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,8 @@
 				CA8E001C2B4308C80002273F /* Data */,
 				CA8E00192B3F23340002273F /* Models */,
 				CA8E00122B3477F40002273F /* Views */,
-				CA8E00032B3477CC0002273F /* swiftui_fruits_app_ios16App.swift */,
 				CA8E00112B3477E50002273F /* Screens */,
+				CA8E00032B3477CC0002273F /* swiftui_fruits_app_ios16App.swift */,
 				CA8E00072B3477D00002273F /* Assets.xcassets */,
 				CA8E00092B3477D00002273F /* Preview Content */,
 			);
@@ -88,6 +92,7 @@
 				CABC5D062B45F2740094B9CB /* FruitDetailView.swift */,
 				CA8E00052B3477CC0002273F /* ContentView.swift */,
 				CA8E00172B3608680002273F /* OnboardingView.swift */,
+				CAD601172B486D15003DB317 /* SettingsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 				CABC5D082B4728070094B9CB /* FruitHeaderView.swift */,
 				CABC5D0A2B4824C50094B9CB /* SourceLinkView.swift */,
 				CAD601152B484927003DB317 /* FruitNutrientsView.swift */,
+				CAD601192B489499003DB317 /* SettingsLabelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,8 +215,10 @@
 				CA8E00062B3477CC0002273F /* ContentView.swift in Sources */,
 				CABC5D092B4728070094B9CB /* FruitHeaderView.swift in Sources */,
 				CA8E00182B3608680002273F /* OnboardingView.swift in Sources */,
+				CAD6011A2B489499003DB317 /* SettingsLabelView.swift in Sources */,
 				CA8E001B2B3F23580002273F /* FruitModel.swift in Sources */,
 				CA8E00042B3477CC0002273F /* swiftui_fruits_app_ios16App.swift in Sources */,
+				CAD601182B486D15003DB317 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
